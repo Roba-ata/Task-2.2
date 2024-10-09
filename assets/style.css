@@ -1,0 +1,172 @@
+ * {margin: 0;
+padding: 0;
+box-sizing: border-box; }
+
+.navbar  {
+    background-color: rgb(42, 42, 42);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.navbar div ul { width: 100%;
+                 display: flex;
+                 justify-content: space-around;
+                 align-items: center;
+                 list-style-type: none;
+}
+
+
+.navbar div ul li a{ color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 120px;
+    cursor: pointer;
+    
+  
+    
+   
+
+}
+.hero { 
+    width: 100%;
+    height:100vh;
+    background-image: url(./images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.hero h1 {
+    color: #000;
+    font-size: 60px;
+    background-color: rgba(196, 191, 184, 0.385);
+}
+
+
+            
+    .about { width: 100%;
+                          height:50vh;
+                         background-color: rgb(244, 247, 249);
+                         display: flex;
+                         justify-content:center ;
+                         align-items: center;
+                         text-align: center;
+                          }
+     .about h2{
+                    font-size: 35px;
+                    margin-bottom: 50px; }
+
+            
+            
+            .service , .specilaizations ,.teachers , .plans ,.contact-us { width: 100%;
+                                                           height: 50vh;
+                                                              background-color: rgba(238, 131, 85, 0.641); }
+                .specilaizations , .plans  {background-color:  rgb(244, 247, 249);}
+
+                  .service h2 , .specilaizations h2 , .teachers h2 , .Plans h2 , .contact-us h2 { font-size: 35px;
+                                  margin-bottom: 50px;
+                                  padding-top: 20px;
+                                  text-align: center;
+                                  }
+                         .main-div { display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    text-align: center;
+                                   
+                                  }
+                             .main { 
+                                    background-color: beige;
+                                    padding: 20px;
+                                  }
+                                
+                                .main ul {list-style-type: none;}
+                                   
+                                 .main-div h3 {
+                                    margin-bottom: 20px;
+                                  }
+                                   .main-div img  {width: 100px;
+                                                  height: 70px;
+                                                margin-bottom: 10px;}
+                                    .main-div1 img {
+                                                    width:150px;
+                                                    height:80px;
+                                                }
+                                        .ul-div {width: 100%;
+                                                    background-color: rgba(204, 176, 64, 0.695);
+                                                         padding: 20px;
+                                                          margin-top: 10px;}
+                                                          button {
+                                                            width:150px;
+                                                            height: 25px;
+                                                            background-color: rgb(50, 49, 49);
+                                                            border-radius:5px;
+                                                            margin-top: 10px;
+                                                            color: aliceblue;
+                                                          }
+                                                          .contact-us {
+                                                            height: 70vh;
+                                                          }
+                                            
+                                                          .form , .info {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                flex-direction: column;
+                                            }
+                                            form { 
+                                                display: flexbox;
+                                                justify-content: center;
+                                                align-items: center;
+                                                flex-direction: column;
+                                                margin: 10px;   }
+                                                form label { 
+                                                    display: flex;
+                                                    align-items: flex-start;
+                                                
+                                                }
+                                                form input {
+                                                    width: 400px;
+                                                    height:30px;
+                                                    background-color: rgba(244, 244, 237, 0.96);
+                                                    border-color: beige;
+                                                }
+                                            
+                                          
+                                            .info h3 {
+                                                font-size: 35px;
+                                                margin: 10px;
+                                            }
+                                            footer {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                background-color: rgb(42, 42, 42);
+                                                padding: 10px;
+
+                                            }
+                                            footer a {
+                                                text-decoration: none;
+                                                color: white;
+                                                margin-right: 30px;
+                                            }
+
+                                               
+                                                          
+
+                    
+                            
+                
+
+                    
+
+
+                
